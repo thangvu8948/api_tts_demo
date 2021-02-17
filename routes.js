@@ -9,7 +9,7 @@ module.exports = function(app) {
     app.route('/')
     .get((req, res) => res.json("Hello world"))
 
-    app.route('/getLink')
+    app.route('/getlink')
       .get(controller.get)
 
   };
